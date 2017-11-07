@@ -9,8 +9,15 @@ Once I resize the screen to less than 550px, I observed that all the elements ar
 - 2 columns of "I'M AN IMAGE" are collapsed into single column, becomes 2 rows from top to bottom.
 - Some fonts have size increased or decreased.
 
-This is possible because of the media queries. The specific line is at:
-    @media (min-width: 550px) { ... }
+This is possible because of the media queries. The specific block is at:
+
+```css
+    /* Bigger than 550 */
+
+    @media (min-width: 550px) {
+
+    }
+```
 
 
 
